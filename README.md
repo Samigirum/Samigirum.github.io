@@ -1,1 +1,0 @@
-# Samigirum.github.io
