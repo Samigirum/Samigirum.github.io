@@ -1,0 +1,68 @@
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+#content p {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 300px;
+    color: hsl(228, 12%, 48%);
+}
+
+.preview {
+    
+    display: flex;
+    background-color: #fff;
+    width: 1000px;
+}
+#content {
+    
+    margin-left: 50px;
+    
+
+}
+.preview #content h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+#price li {
+    
+    margin-right: 50px;
+    display: inline;
+    margin-top: 30px;
+    color: hsl(228, 12%, 48%);
+}
+#price span {
+    color: hsl(158, 36%, 37%);
+    font-size: 48px;
+}
+#price p {
+    position: absolute;
+    top: 213px;
+    margin-left: 210px;
+    width: 30px;
+}
+#buy a {
+    
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    
+}
+#buy p {
+    color: #fff;
+    margin-left: 50px;
+    width: 150px;
+    padding: 10px 10px;
+}
+#buy img {
+  margin-left: 30px;
+}
+a {
+    text-decoration: none;
+}
