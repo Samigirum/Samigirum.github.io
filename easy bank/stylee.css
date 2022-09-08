@@ -1,0 +1,196 @@
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+main {
+    margin-left: 100px;
+}
+*{
+    box-sizing: border-box;
+}
+.landing {
+    margin-top: 15px;
+    height: 50px;
+}
+.landing img{
+    margin-right: 150px;
+}
+.landing a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 20px;
+}
+.landing a[href*='request-invite'] {
+    margin-left: 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: hsl(136, 65%, 51%);
+}
+.head {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    margin-top: 30px;
+}
+#caption {
+    width: 600px;
+    margin-top: 100px;
+    
+}
+#two {
+    position: absolute;
+    left: 650px;
+    overflow-x: hidden;
+}
+p {
+    color: hsl(233, 8%, 62%);
+}
+#caption h1{
+    margin: 50px 0px 50px 0px;
+    color: hsl(233, 26%, 24%);
+    font-size: 50px;
+
+}
+#caption a {
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: hsl(136, 65%, 51%);
+}
+#caption p {
+    margin-bottom: 50px;
+}
+.middle {
+    background-color: hsl(220, 16%, 96%);
+
+}
+.middle h2 {
+    color: hsl(233, 26%, 24%);
+}
+.middle h4 {
+    color: hsl(233, 26%, 24%);;
+}
+.middle p {
+    margin-bottom: 50px;
+   
+}
+.explanation {
+    display: flex;
+    margin-right: 50px;
+}
+#online,
+#budgeting,
+#onboarding,
+#api {
+    margin-right: 20px;
+}
+.footer{
+    background-color: hsl(0, 0%, 98%);
+}
+.footer h2 {
+    margin: 0px 0px 50px 0px;
+    color: hsl(233, 26%, 24%);
+}
+.comment {
+    display: flex;
+}
+#restaurant,
+#plane,
+#gilliter,
+#money p {
+    margin-right: 20px;
+}
+#restaurant,
+#plane,
+#gilliter,
+#money {
+    background-color: #fff;
+}
+#restaurant img {
+    border-radius: 10px 10px 0px 0px;
+}
+#plane img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+#money img {
+    border-radius: 10px 10px 0px 0px;
+}
+#gilliter img {
+    border-radius: 10px 10px 0px 0px;
+}
+#restaurant,
+#plane,
+#gilliter,
+#money h5 {
+    color: hsl(233, 26%, 24%);
+}
+.foot {
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+}
+.image {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.image img {
+    filter: invert(100%) sepia(13%) saturate(7449%) hue-rotate(185deg) brightness(115%) contrast(112%);
+    margin-bottom: 50px;
+    
+}
+.social {
+    display: flex;
+    filter: invert(100%) sepia(13%) saturate(7449%) hue-rotate(185deg) brightness(115%) contrast(112%);
+}
+#facebook,
+#youtube,
+#twitter,
+#pinterest,
+#instagram {
+    margin-right: 5px;
+}
+.info {
+    margin-left: 100px;
+    display: flex;
+}
+#row-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#row-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#row-1 a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
+#row-2 a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
+.invite {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.invite a {
+    padding: 10px 10px;
+    background-color: hsl(136, 65%, 51%);
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 80px;
+    color: #fff;
+}
+.invite p {
+    margin-top: 30px;
+    font-size: 15px;
+}
