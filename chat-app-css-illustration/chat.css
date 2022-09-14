@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    display: inline-flex;
+    background-color: hsl(270, 20%, 96%);
+}
+#background {
+    background: hsl(264, 100%, 61%);
+    background: -webkit-linear-gradient(to bottom,  hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+    background: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+    width: 300px;
+    height: 500px;
+    border-radius: 0% 0% 150px 150px;
+}
+#all {
+    border: 15px solid #fff; 
+    position: relative;
+    margin-top: 100px;
+    left: -50px;
+    border-radius: 25px;
+}
+#top {
+    border-radius: 5px 5px 0px 0px;
+    display: inline-flex;
+    position: sticky;
+    z-index: 10;
+    background:  hsl(293, 100%, 63%);
+    background: -webkit-linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));;
+    height: 90px;
+    width: 380px;
+}
+#top img {
+    border: 1px solid #fff;
+}
+.define #top img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-left: 10px;
+   margin-top: 30px;
+}
+.define #top p {
+   color: #fff;
+   margin-top: 40px;
+}
+#name {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.top #name p {
+   
+    color: hsl(270, 7%, 64%);
+    font-size: 13px;
+}
+#name h4 {
+    color: #fff;
+}
+#name p{
+    position: relative;
+    bottom: 25px;
+    width: 150px;
+}
+#dot {
+    display: block;
+    position: relative;
+    left: 110px;
+    height: 20px;
+    margin-top: 25px;
+}
+#dot li {
+    font-size: 10px;
+    color: #fff;
+}
+.bold {
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 0px 0px 17px 17px;
+    position: relative;
+    top: 0px;
+    right: 130px;
+    width: 400px;
+    height: 25px;
+}
+.text {
+    display: inline-block;
+    background-color: hsl(270, 20%, 96%);
+    width: 380px;
+    border-radius: 0px 0px 10px 10px;
+}
+.text #one p {
+    
+    margin-top: 30px;
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    border-radius: 10px 10px 10px 5px;
+}
+.text p {
+    margin-left: 10px;
+    width: 200px;
+    max-height: 77px;
+    margin-bottom: 10px;
+}
+#two p {
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    border-radius: 10px 10px 10px 5px;
+}
+#image {
+    margin-left: 170px;
+    text-align: right;
+}
+#image img {
+    border-radius: 10px;
+}
+#image p {
+    padding: 5px 5px 5px 5px;
+    text-align: initial;
+    color:  hsl(271, 15%, 43%);
+    background-color: #fff;
+    border-radius: 10px 10px 5px 10px;
+}
+#three p {
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    border-radius: 10px 10px 10px 5px;
+    padding: 5px 5px 5px 5px;
+}
+#money {
+    background:  hsl(293, 100%, 63%);
+    background: -webkit-linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));;
+    background: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));;
+    max-width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 5px;
+}
+#money a {
+    text-decoration: none;
+    color:  hsl(271, 36%, 24%);
+}
+#money span {
+    color: #fff;
+    margin-left: 30px;
+}
+#other {
+    background:  hsl(293, 100%, 63%);
+    background: -webkit-linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));;
+    background: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));;
+    max-width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 5px; 
+}
+#other a {
+    text-decoration: none;
+    color: hsl(271, 36%, 24%);
+}
+#other span {
+    color: #fff;
+    margin-left: 60px;
+}
+.idea {
+    display: inline-flex;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-left: 10px;
+    height: 100%;
+    width: 355px;
+    margin-right: 10px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.idea p {
+    padding: 20px 50px 20px 0px;
+}
+.idea h4 {
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    color: #fff;
+}
+.info {
+    margin-left: 60px;
+}
+#heading h1 {
+    font-size: 40px;
+    margin-top: 300px;
+    
+}
+#heading p {
+    margin-top: 60px;
+    width: 450px;
+    line-height: 2rem;
+}
