@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    max-width: 1440px;
+    font-family: 'League Spartan', sans-serif;
+    background-image: url('images/bg-pattern-top-desktop.svg');
+}
+.top {
+    margin: 100px;
+}
+.head {
+    display: flex;
+}
+#title {
+    color: hsl(300, 43%, 22%);
+}
+#title h1 {
+    width: 300px;
+    font-size: 40px;
+}
+#title p {
+    color: hsl(303, 10%, 53%);
+    width: 400px;
+    margin-top: 30px;
+}
+#rating {
+    margin-left: 100px;
+}
+#rating p {
+    color: hsl(300, 43%, 22%);
+    background-color:  hsl(300, 24%, 96%);
+    margin-left: 15px;
+}
+#rating .one {
+    display: flex;
+}
+.one {
+    padding: 15px;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    width: 350px;
+}
+.one img {
+    margin-left: 5px;
+}
+.two {
+    padding: 15px;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin: 0px 0px 10px 30px;
+    width: 350px;
+}
+.two img {
+    margin-left: 5px;
+}
+#rating .two {
+    display: flex;
+}
+.three {
+    padding: 15px;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin: 0px 0px 10px 60px;
+    width: 350px;
+}
+.three img {
+    margin-left: 5px;
+}
+#rating .three {
+    display: flex;
+}
+.bottom {
+    margin-top: 60px;
+    display: flex;
+}
+.comment {
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 200px;
+}
+#image {
+    display: flex;
+}
+#image img {
+
+    border-radius: 50%;
+    margin: 25px 5px 25px 25px;
+}
+.head-1 {
+    margin: 25px 0px 25px 15px ;
+}
+.head-1 h5 {
+    font-weight: 700;
+    color: #fff;
+}
+.head-1 p {
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+#para p {
+    width: 250px;
+    margin: 0px 15px 25px 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.comment-2{
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    margin:20px 10px 0px;
+    height: 200px;
+}
+.comment-3 {
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    margin:40px 10px 0px;
+    height: 200px;
+}
